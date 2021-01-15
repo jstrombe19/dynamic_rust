@@ -4,7 +4,7 @@ OBTAINING USER INPUT
 
 Rust is somewhat verbose in acquiring use input; it also can only acquire that input as a string data type. To save user input as a different data type, the input must be cast as the desired data type. As long as the input value is a valid sample of the desired data type, the input can be saved as that data type.
 
-In order to acquire user input, Rust requires use of its standard library's io package. This can be harnesses by the line
+In order to acquire user input, Rust requires use of its standard library's io package. This can be harnessed by the line
 
 `use std::io;`
 
