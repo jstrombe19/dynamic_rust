@@ -66,6 +66,25 @@ fn main() {
   } else {
     println!("f is greater than e");
   };
+  
+  
+  // find greatest number between five options
+  let g:f32 = 4.87;
+  let h:f32 = 23.125465;
+  let i:f32 = 41.87;
+  let j:f32 = 2331.125465;
+  let k:f32 = 232.125465;
+  if g > h && g > i && g > j && g > k {
+    println!("g is the greatest value");
+  } else if h > g && h > i && h > j && h > k {
+    println!("h is the greatest value");
+  } else if i > g && i > h && i > j && i > k {
+    println!("i is the greatest value");
+  } else if j > g && j > i && j > h && j > k {
+    println!("j is the greatest value");
+  } else if k > g && k > i && k > j && k > h {
+    println!("k is the greatest value");
+  };
 
 
 }
