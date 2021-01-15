@@ -8,3 +8,10 @@ In order to acquire user input, Rust requires use of its standard library's io p
 
 `use std::io;`
 
+**Of note** when using boolean data types, Rust requires strict adherence to `true` and `false` as the only acceptable inputs.
+
+CONDITIONAL STATEMENTS
+
+If-else statements in Rust follow standard conditional statement logic and formatting similar to JavaScript, with the exception that there are no compulsory parenthesis around the initial condition. The curly braces around the executed code for any and all conditions are compulsory.
+
+If-else statements can be nested just as they can be in other programming languages.
